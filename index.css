@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'matrix';
+    src: url(Doctor\ Glitch.otf) format('truetype');
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+body {
+    background-image: url(./istockphoto-1330021483-612x612.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    background-color: rgba(255, 255, 255, 0.700);
+    padding: 5em;
+    border-radius: 10px;
+    width: 34%;
+    text-align: center;
+    height: 60vh;
+}
+
+h1 {
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'matrix', Times, serif;
+    align-items: center;
+}
+
+.passos {
+    align-items: center;
+    gap: 2em;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    gap:2em;
+}
+
+
+
+.resultadocaixa {
+    padding: 1em;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(112, 102, 102, 0.862);
+    border-top: solid 0.5px black;
+}
+
+.link {
+    width: 2em;
+}

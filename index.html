@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <h1>DE.CODIFICAR</h1>
+            <h2 class="texto" id="mensagem">Escreva a mensagem que será codificada/decodificada</h2>
+            <form action="" class="formulario">
+                <div class="entrada">
+                    <textarea type="input" id="input" rows="4" cols="50"></textarea>
+                </div>
+                <select id="selecionar">
+                    <option value="selecao">Selecionar</option>
+                    <option value="cesar">Cifra de César</option>
+                    <option value="base">Base64</option>
+                </select>
+                <div id="radio" clas="escolher">
+                    <input type="radio" name="code" id="codificar">Codificar
+                    <input type="radio" name="code" id="decodificar">Decodificar
+                </div>
+                <div id="passos" class="passos">
+                    <h4> Quantidade de Passos</h4>
+                    <input type="number" name="passos">
+                </div>
+                <div class="btn" id="resultado">
+                    <button id="botao">Resultado</button>
+                </div>
+                <div class="resultadocaixa" id="textarea">
+                    <textarea type="input" id="input" rows="4" cols="50"></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/GiselleLeadebal" target="_blank"><img class="link" src="./github.png"></a>
+        <p><br>Projeto de Giselle Leadebal</p>
+        <a href="https://www.linkedin.com/in/giselle-leadebal-869528128/" target="_blank"><img class="link"
+                src="./174857.png"></a>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
